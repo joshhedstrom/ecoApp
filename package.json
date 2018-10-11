@@ -19,8 +19,6 @@
   "homepage": "https://github.com/joshhedstrom/ecoApp#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "bcrypt": "^3.0.0",
-    "bcrypt-nodejs": "0.0.3",
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.3",
     "concurrently": "^3.6.1",
