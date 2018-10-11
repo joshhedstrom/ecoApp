@@ -2,18 +2,44 @@
   "name": "ecoApp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "engines": {
+    "node": "8.11.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "client": "node scripts/start-client.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Josh Hedstrom <josh.hedstrom@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/joshhedstrom/ecoApp#readme",
   "dependencies": {
-    "create-react-app": "^2.0.3",
-    "express": "^4.16.4",
-    "morgan": "^1.9.1",
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.0",
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "method-override": "^2.3.10",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.7",
+    "mongoose-double": "0.0.1",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.0",
     "passport": "^0.4.0",
-    "path": "^0.12.7"
+    "passport-jwt": "^4.0.0"
+  },
+  "root": "build/",
+  "clean_urls": false,
+  "routes": {
+    "/**": "index.html"
   }
 }
