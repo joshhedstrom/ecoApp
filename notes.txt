@@ -11,3 +11,20 @@ Partnerships with energy friendly and eco innovative startups and companies
 Funding for cheap alternative energy products
 Tracking and analytics on user's environmentally friendly activities (volunteered info)
 Community Forums
+
+
+Models: 
+
+User Model
+    -first name 
+    -last name 
+    -username 
+    -password 
+    -email 
+    -phone number 
+    -country 
+    -state/providence
+    -city 
+    -last login date 
+
+ 
