@@ -1,0 +1,29 @@
+.title__bar__title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    padding: 10px;
+}
+
+.title__bar__buttonbar {
+    display: flex;
+}
+
+.title__bar__subtitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px 5px 5px 10px;
+    float: right;
+}
+
+.title__bar__button {
+    padding: 5px;
+    margin: 5px 5px 5px 10px;
+    border: 1px black solid;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+.title__bar__button:hover {
+    border: 2px black solid;
+}
