@@ -1,0 +1,10 @@
+.header__image {
+    background: url('../../assets/green-leaves.jpg');
+    height: 100vh;
+    object-fit: scale-down;
+    width: auto;
+}
+
+.cards__wrapper {
+    display: flex;
+}
