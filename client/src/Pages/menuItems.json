@@ -1,0 +1,34 @@
+{
+    "menuItems": [
+        {
+            "title": "resources",
+            "link": "/articles",
+            "img": ""
+        },
+        {
+            "title": "products",
+            "link": "/products",
+            "img": ""
+        },
+        {
+            "title": "blog",
+            "link": "/blog",
+            "img": ""
+        },
+        {
+            "title": "petitions",
+            "link": "/petitions",
+            "img": ""
+        },
+        {
+            "title": "partnerships",
+            "link": "/partnerships",
+            "img": ""
+        },
+        {
+            "title": "funding",
+            "link": "/funding",
+            "img": ""
+        }
+    ]
+}
