@@ -4,9 +4,9 @@ import './index.css';
 
 function CardComponent(props) {
   return (
-    <div>
+    <div className="card">
       <div className="background__image" style={{backgroundImage: `url(${props.image})`}}>
-        <span>{props.title}</span>
+        <h3 className="card__title">{props.title}</h3>
       </div>
     </div>
   );
