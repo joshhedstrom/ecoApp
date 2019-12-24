@@ -5,12 +5,13 @@ import solar1 from  '../../assets/solar1.jpg'
 import windmill1 from '../../assets/windmill1.jpg'; 
 import notebook from '../../assets/notebook.jpg'; 
 
-import HeaderComponent from '../../Components/HeaderComponent';
-import CardComponent from '../../Components/CardComponent';
+import HeaderComponent from '../../components/HeaderComponent';
+import CardComponent from '../../components/CardComponent';
 
 class HomePage extends Component {
 
   state = {}
+
 
   render() {
     return (
