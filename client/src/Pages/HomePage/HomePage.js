@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './HomePage.css';
+import './index.css';
 import solar1 from  '../../assets/solar1.jpg'
 import windmill1 from '../../assets/windmill1.jpg'; 
 import notebook from '../../assets/notebook.jpg'; 
