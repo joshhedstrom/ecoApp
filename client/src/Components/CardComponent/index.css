@@ -11,29 +11,35 @@
 
   /* card title */
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   text-decoration: none;
-
+  
   /* background image */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
+  
   opacity: 85%;
   transition: all 0.2s;
 }
 
 .card__title {
-  text-align: center;
-  color: black;
-  font-size: 30px;
-  opacity: 100%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
 }
 
 .card:hover {
-  opacity: 100%;
-  border: 2px black solid;
-  transition: all 0.2s;
+    opacity: 100%;
+    border: 2px black solid;
+    transition: all 0.2s;
+}
+
+.icon {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    margin: 5px;
 }
 
 @media (max-width: 800px) {
