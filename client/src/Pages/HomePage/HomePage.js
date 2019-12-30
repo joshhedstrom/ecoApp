@@ -3,9 +3,6 @@ import React, { Component } from 'react';
 import './index.css';
 
 import menuItems from '../menuItems.json'
-// import solar1 from  '../../assets/solar1.jpg'
-// import windmill1 from '../../assets/windmill1.jpg'; 
-// import notebook from '../../assets/notebook.jpg'; 
 
 import HeaderComponent from '../../components/HeaderComponent';
 import CardComponent from '../../components/CardComponent';
@@ -22,10 +19,7 @@ class HomePage extends Component {
           <HeaderComponent />
           </div>
           <div className="cards__wrapper">
-            {menuItems.menuItems.map((item, i) => {
-              return <CardComponent key={item.title} title={item.title} image={item.img} {...item} />
-            })}
-  
+            {menuItems.menuItems.map((item, i) => <CardComponent key={item.title} title={item.title} img={item.img} {...item} />)}
         </div>
       </div>
     );

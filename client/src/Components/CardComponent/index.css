@@ -3,32 +3,30 @@
     height: 300px;
     border: 1px black solid;
     border-radius: 5px;
-    margin: 5px;
+    margin: 10px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: column-reverse;
 }
 
 .card__title {
     text-align: center;
-    bottom: 0px;
+    /* color: white; */
+    font-size: 30px;
+    /* bottom: 0px; */
+    
+}
+
+.card:hover {
+    width: 305px;
+    height: 305px;
+    /* border: 2px black solid; */
+    /* transition: all 0.5s; */
+    margin: 10px;
 
 }
 
 .background__image {
-  /* width: calc(100vw / 4);
-  height: calc(100vh / 3);
-  margin: 25px;
-  background-repeat: no-repeat;
-  background-size: contain; */
-  /* display: flex;
-  justify-content: space-around; */
-}
 
-.image__text {
-  margin-top: 140px;
-  text-align: center;
-  width: 100%;
-  color: white;
-  font-size: 30px;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }

@@ -3,32 +3,32 @@
         {
             "title": "resources",
             "link": "/articles",
-            "img": ""
+            "img": "/assets/notebook.jpg"
         },
         {
             "title": "products",
             "link": "/products",
-            "img": ""
+            "img": "/assets/recycling1.jpg"
         },
         {
             "title": "blog",
             "link": "/blog",
-            "img": ""
+            "img": "/assets/solar1.jpg"
         },
         {
             "title": "petitions",
             "link": "/petitions",
-            "img": ""
+            "img": "/assets/notebook.jpg"
         },
         {
             "title": "partnerships",
             "link": "/partnerships",
-            "img": ""
+            "img": "/assets/recycling1.jpg"
         },
         {
             "title": "funding",
             "link": "/funding",
-            "img": ""
+            "img": "/assets/solar1.jpg"
         }
     ]
 }

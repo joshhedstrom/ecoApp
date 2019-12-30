@@ -1,6 +1,6 @@
 .header__image {
-  background: url('../../assets/green-leaves.jpg');
-  height: 100vh;
+  background: url('/assets/green-leaves.jpg');
+  height: calc(100vh - 335px);
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: scale-down;
