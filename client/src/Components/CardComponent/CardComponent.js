@@ -1,14 +1,13 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
 import './index.css';
 
 function CardComponent(props) {
   return (
-    <div className="background__image card" style={{backgroundImage: `url(${props.img})`}} >
-      <div>
-        <h3 className="card__title">{props.title}</h3>
-      </div>
-    </div>
+    <Link className="card" to={props.link} style={{ backgroundImage: `url(${props.img})` }}>
+      <h3 className="card__title">{props.title}</h3>
+    </Link>
   );
 }
 

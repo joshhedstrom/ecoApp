@@ -1,13 +1,23 @@
+.homepage__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
 .header__image {
   background: url('/assets/green-leaves.jpg');
-  height: calc(100vh - 335px);
+  height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: scale-down;
-  width: auto;
 }
 
 .cards__wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
+
+  height: 30vh;
 }
