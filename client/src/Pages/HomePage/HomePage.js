@@ -22,12 +22,18 @@ class HomePage extends Component {
           <HeaderComponent />
           </div>
           <div className="cards__wrapper">
+<<<<<<< Updated upstream
             {menuItems.menuItems.map((item, i) => {
               return <CardComponent key={item.title} title={item.title} image={item.img} {...item} />
             })}
             {/* <CardComponent title="Clean Energy" image={solar1} />
             <CardComponent title="Recycling" image={windmill1} />
             <CardComponent title="Blog" image={notebook} /> */}
+=======
+            <CardComponent title="clean energy" image={solar1} />
+            <CardComponent title="recycling" image={recycling1} />
+            <CardComponent title="blog" image={notebook} />
+>>>>>>> Stashed changes
         </div>
       </div>
     );
