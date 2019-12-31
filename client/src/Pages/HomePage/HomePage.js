@@ -12,9 +12,7 @@ class HomePage extends Component {
   render() {
     return (
       <div className="homepage__wrapper">
-        <div className="header__image">
-          <HeaderComponent />
-        </div>
+        <HeaderComponent />
         <div className="cards__wrapper">
           {menuItems.menuItems.map((item, i) => (
             <CardComponent key={item.title} {...item} />

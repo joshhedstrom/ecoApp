@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faBookOpen, faLightbulb, faQuoteLeft, faStream, faHandsHelping, faSearchDollar } from '@fortawesome/free-solid-svg-icons';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import HomePage from './pages/HomePage';
+
+library.add(faBookOpen, faLightbulb, faQuoteLeft, faStream, faHandsHelping, faSearchDollar);
 
 class App extends Component {
   render() {
