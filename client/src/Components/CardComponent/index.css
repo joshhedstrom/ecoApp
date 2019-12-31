@@ -3,43 +3,50 @@
   flex: 0 0 15%;
   height: 250px;
 
-  margin: 10px;
+  margin-bottom: 10px;
 
   /* border */
-  border: 1px black solid;
   border-radius: 10px;
 
   /* card title */
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  
-  /* background image */
+
+  /* background */
+  background-color: #b9b66d;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
-  opacity: 85%;
+
+  opacity: 95%;
   transition: all 0.2s;
 }
 
 .card__title {
-    text-align: center;
-    color: black;
-    font-size: 30px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin: 0;
 }
 
 .card:hover {
-    opacity: 100%;
-    border: 2px black solid;
-    transition: all 0.2s;
+  opacity: 98%;
+  transition: all 0.2s;
+  box-shadow: 8px 8px 5px darkgrey;
+  transform: scale(1.01);
 }
 
 .icon {
-    color: black;
-    text-align: center;
-    font-size: 60px;
-    margin: 5px;
+  color: white;
+  text-align: center;
+  font-size: 4vw;
+  margin: 5px;
+}
+
+/* rotate helping-hand icon so it's level */
+.card:nth-of-type(5) .icon {
+  transform: rotate(31deg);
 }
 
 @media (max-width: 800px) {
@@ -49,14 +56,20 @@
     margin: 7px;
     border-radius: 5px;
   }
+  .icon {
+    font-size: 4vw;
+  }
 }
 
 @media (max-width: 400px) {
   .card {
     flex: 1 0 100%;
-    height: 100px;
-    margin: 0px;
+    height: 90px;
+    margin: 0 0 2px 0;
     border-radius: 0px;
     opacity: 90%;
+  }
+  .icon {
+    font-size: 6vw;
   }
 }

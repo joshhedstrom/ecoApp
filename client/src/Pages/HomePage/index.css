@@ -1,23 +1,26 @@
-.homepage__wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: stretch;
-}
-
-.header__image {
-  background: url('/assets/green-leaves.jpg');
-  height: 70vh;
+html {
+  /* background */
+  background: url('/assets/plantWhiteBack.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  object-fit: scale-down;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+.homepage__wrapper {
+  /* layout */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 .cards__wrapper {
+  background: inherit;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-
-  height: 30vh;
+  height: auto;
 }

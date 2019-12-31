@@ -6,15 +6,10 @@ import './index.css';
 
 function CardComponent(props) {
   return (
-    <Link
-      className="card"
-      to={props.link}
-      //  style={{ backgroundImage: `url(${props.img})` }}
-    >
+    <Link className="card" to={props.link}>
       <div className="icon">
         <FontAwesomeIcon icon={props.icon} />
       </div>
-      <br />
       <h3 className="card__title">{props.title}</h3>
     </Link>
   );

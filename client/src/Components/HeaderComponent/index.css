@@ -1,7 +1,9 @@
 .title__bar__title {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 36px;
+    font-size: 60px;
     padding: 10px;
+    color: #b9b66d;
+    text-shadow: 5px 2px 5px darkgrey
 }
 
 .title__bar__buttonbar {
@@ -10,10 +12,12 @@
 
 .title__bar__subtitle {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 36px;
     padding: 5px;
     margin: 5px 5px 5px 10px;
     float: right;
+    color: #b9b66d;
+    text-shadow: 5px 2px 5px white
 }
 
 .title__bar__button {
