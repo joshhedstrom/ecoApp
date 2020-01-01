@@ -1,0 +1,30 @@
+.spotlight__wrapper {
+    width: 70%;
+    height: 50vh;
+    margin: 3% 15%;
+    /* background-size: cover;
+    background-position: center center;
+    object-fit: scale-down;
+    background-repeat: no-repeat;
+    opacity: 85%; */
+
+    background-color: rgba(255, 255, 255, .15);  
+    /* background-color: white; */
+    /* opacity: 15%; */
+    /* border: 1px black solid; */
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    /* background-attachment: fixed; */
+}
+
+.spotlight__wrapper h2 {
+    margin: 0;
+    text-align: center;
+    /* margin-top: 75%; */
+    /* align-self: flex-end; */
+}

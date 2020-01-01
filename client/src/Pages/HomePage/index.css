@@ -1,10 +1,28 @@
 html {
   /* background */
-  background: url('/assets/plantWhiteBack.jpg');
+  background: url('/assets/green-leaves.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: bottom right;
   background-attachment: fixed;
+}
+
+.background__video__wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.background__video {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: -100%;
+    height: -100%;
 }
 
 .homepage__wrapper {
@@ -13,7 +31,6 @@ html {
   flex-direction: column;
   align-items: stretch;
   justify-content: space-between;
-  height: 100vh;
 }
 
 .cards__wrapper {
